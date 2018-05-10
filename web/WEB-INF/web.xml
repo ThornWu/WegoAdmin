@@ -32,6 +32,15 @@
     </servlet-mapping>
 
     <servlet>
+        <servlet-name>AddLocationUI</servlet-name>
+        <servlet-class>wego.AddLocationUI</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddLocationUI</servlet-name>
+        <url-pattern>/servlet/AddLocationUI</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
         <servlet-name>UserInfoUI</servlet-name>
         <servlet-class>wego.UserInfoUI</servlet-class>
     </servlet>

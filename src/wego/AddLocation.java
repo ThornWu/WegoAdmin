@@ -35,41 +35,35 @@ public class AddLocation extends HttpServlet {
         String lon = request.getParameter("longitude");
         String address = request.getParameter("address");
         String city = request.getParameter("localcity");
-        String isused = request.getParameter("isused");
         String citylabel = request.getParameter("citylabel");
-
+        Statement stmt=null;
         try{
-            conn.setAutoCommit(false);
-            Statement stmt=conn.createStatement();
+            stmt=conn.createStatement();
             if(action.equals("add")){
                 SimpleDateFormat nt = new SimpleDateFormat ("yyMMddHHmmss");
                 String newid = nt.format(new Date());
-                if(citylabel=="LA"){
+                if(citylabel.equals("LA")){
                     sql="insert into venue (venueid,venuename,category,latitude,longitude,address,localcity,la_label) values("+newid+",'"+name+"','"+category+"',"+lat+",'"+lon+"','"+address+"','"+city+"',-1)";
                 }else{
                     sql="insert into venue (venueid,venuename,category,latitude,longitude,address,localcity,ny_label) values("+newid+",'"+name+"','"+category+"',"+lat+",'"+lon+"','"+address+"','"+city+"',-1)";
                 }
                 stmt.executeUpdate(sql);
-                conn.commit();
                 msg ="ok";
             }else if(action.equals("edit")){
-                if(citylabel=="LA"){
-                    sql="update venue set venuename='"+name+"',category="+category+",latitude='"+lat+"',longitude='"+lon+"',address='"+address+"',localcity='"+city+"',la_label=-1,ny_label=-2 where venueid='"+id+"'";
+                if(citylabel.equals("LA")){
+                    sql="update venue set venuename='"+name+"',category='"+category+"',latitude='"+lat+"',longitude='"+lon+"',address='"+address+"',localcity='"+city+"',la_label=-1,ny_label=-2 where venueid='"+id+"'";
                 }else{
-                    sql="update venue set venuename='"+name+"',category="+category+",latitude='"+lat+"',longitude='"+lon+"',address='"+address+"',localcity='"+city+"',la_label=-2,ny_label=-1 where venueid='"+id+"'";
+                    sql="update venue set venuename='"+name+"',category='"+category+"',latitude='"+lat+"',longitude='"+lon+"',address='"+address+"',localcity='"+city+"',la_label=-2,ny_label=-1 where venueid='"+id+"'";
                 }
                 stmt.executeUpdate(sql);
-                conn.commit();
                 msg ="ok";
             }else if(action.equals("del")){
                 sql="update venue set isused='False' where venueid='"+id+"'";
                 stmt.executeUpdate(sql);
-                conn.commit();
                 msg ="ok";
             }else if(action.equals("recover")){
                 sql="update venue set isused='True' where venueid='"+ id +"'";
                 stmt.executeUpdate(sql);
-                conn.commit();
                 msg ="ok";
             }
             msg = new String(msg.getBytes("ISO-8859-1"), "utf-8");

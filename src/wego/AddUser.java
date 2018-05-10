@@ -27,10 +27,10 @@ public class AddUser extends HttpServlet {
         String sql;
         String action = request.getParameter("action");
         String id = request.getParameter("userid");
-
+        Statement stmt = null;
         try{
             conn.setAutoCommit(false);
-            Statement stmt = conn.createStatement();
+            stmt = conn.createStatement();
             if(action.equals("del")){
                 sql = "update user set isused='False' where userid="+id;
                 stmt.executeUpdate(sql);

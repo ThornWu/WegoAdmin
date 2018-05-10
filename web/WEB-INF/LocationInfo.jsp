@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ page pageEncoding="UTF-8"%>
 <%@page import="java.sql.*,wego.SqlCoon"%>
 <%
 if(session.getAttribute("employee")==null){
@@ -45,16 +45,19 @@ if(session.getAttribute("employee")==null){
               e.printStackTrace();
           }
       %>
+      <br/>
+      <a href="/servlet/AddLocationUI">Add Location</a><br/>
 
       <table>
           <tr>
-              <td>venueid</td>
-              <td>venuename</td>
-              <td>category</td>
-              <td>latitude</td>
-              <td>longitude</td>
-              <td>localcity</td>
-              <td>delete</td>
+              <td>Venueid</td>
+              <td>Venuename</td>
+              <td>Category</td>
+              <td>Latitude</td>
+              <td>Longitude</td>
+              <td>Localcity</td>
+              <td>Edit</td>
+              <td>Delete</td>
           </tr>
           <%
               try {
@@ -76,12 +79,21 @@ if(session.getAttribute("employee")==null){
               <td><%=rs.getDouble("latitude")%></td>
               <td><%=rs.getDouble("longitude")%></td>
               <td><%=rs.getString("localcity")%></td>
-              <td><button onclick="del('<%=rs.getString("venueid")%>')">delete</button></td>
+              <td><a href="/servlet/AddLocationUI?id=<%=rs.getString("venueid")%>&action=edit">Edit</a></td>
+              <td><button onclick="del('<%=rs.getString("venueid")%>')">Delete</button></td>
           </tr>
           <%
                   }
               } catch (SQLException e) {
                   e.printStackTrace();
+              }finally {
+                  if (conn != null) {
+                      try{
+                          conn.close();
+                      }catch (Exception e){
+                          e.printStackTrace();
+                      }
+                  }
               }
           %>
       </table>

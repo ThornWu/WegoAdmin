@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<%@ page pageEncoding="UTF-8"%>
 <%@page import="java.sql.*,wego.SqlCoon"%>
 <%
     if(session.getAttribute("employee")==null){
@@ -48,13 +48,13 @@
 
         <table>
             <tr>
-                <td>venueid</td>
-                <td>venuename</td>
-                <td>category</td>
-                <td>latitude</td>
-                <td>longitude</td>
-                <td>localcity</td>
-                <td>recover</td>
+                <td>Venueid</td>
+                <td>Venuename</td>
+                <td>Category</td>
+                <td>Latitude</td>
+                <td>Longitude</td>
+                <td>Localcity</td>
+                <td>Recover</td>
             </tr>
             <%
                 try {
@@ -76,12 +76,20 @@
                 <td><%=rs.getDouble("latitude")%></td>
                 <td><%=rs.getDouble("longitude")%></td>
                 <td><%=rs.getString("localcity")%></td>
-                <td><button onclick="recover('<%=rs.getString("venueid")%>')">recover</button></td>
+                <td><button onclick="recover('<%=rs.getString("venueid")%>')">Recover</button></td>
             </tr>
             <%
                     }
                 } catch (SQLException e) {
                     e.printStackTrace();
+                }finally {
+                    if (conn != null) {
+                        try{
+                            conn.close();
+                        }catch (Exception e){
+                            e.printStackTrace();
+                        }
+                    }
                 }
             %>
         </table>
