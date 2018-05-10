@@ -1,0 +1,27 @@
+package wego;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+
+public class DeletedUserUI extends HttpServlet {
+    public void init() throws ServletException {
+    }
+
+    public void destroy() {
+        super.destroy();
+    }
+
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+        String usercode = (String)request.getSession().getAttribute("employee");
+        if(usercode!=null&&usercode!=""){
+            request.getRequestDispatcher("/WEB-INF/DeletedUser.jsp").forward(request, response);
+        }
+    }
+
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    }
+}

@@ -5,12 +5,87 @@
          version="4.0">
 
     <servlet>
-        <servlet-name>Demo</servlet-name>
-        <servlet-class>Demo</servlet-class>
+        <servlet-name>ManageCenterUI</servlet-name>
+        <servlet-class>wego.ManageCenterUI</servlet-class>
     </servlet>
-
     <servlet-mapping>
-        <servlet-name>Demo</servlet-name>
-        <url-pattern>/Demo</url-pattern>
+        <servlet-name>ManageCenterUI</servlet-name>
+        <url-pattern>/servlet/ManageCenterUI</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LocationInfoUI</servlet-name>
+        <servlet-class>wego.LocationInfoUI</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LocationInfoUI</servlet-name>
+        <url-pattern>/servlet/LocationInfoUI</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeletedLocationUI</servlet-name>
+        <servlet-class>wego.DeletedLocationUI</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeletedLocationUI</servlet-name>
+        <url-pattern>/servlet/DeletedLocationUI</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserInfoUI</servlet-name>
+        <servlet-class>wego.UserInfoUI</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserInfoUI</servlet-name>
+        <url-pattern>/servlet/UserInfoUI</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeletedUserUI</servlet-name>
+        <servlet-class>wego.DeletedUserUI</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DeletedUserUI</servlet-name>
+        <url-pattern>/servlet/DeletedUserUI</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>VarifyUser</servlet-name>
+        <servlet-class>wego.VarifyUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>VarifyUser</servlet-name>
+        <url-pattern>/servlet/VarifyUser</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LogOut</servlet-name>
+        <servlet-class>wego.LogOut</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogOut</servlet-name>
+        <url-pattern>/servlet/LogOut</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AddLocation</servlet-name>
+        <servlet-class>wego.AddLocation</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddLocation</servlet-name>
+        <url-pattern>/servlet/AddLocation</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddUser</servlet-name>
+        <servlet-class>wego.AddUser</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddUser</servlet-name>
+        <url-pattern>/servlet/AddUser</url-pattern>
+    </servlet-mapping>
+
+
 </web-app>
