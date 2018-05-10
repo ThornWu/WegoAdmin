@@ -13,15 +13,6 @@ ul {
 	list-style-type: none;
 }
 
-a {
-	color: #b63b4d;
-	text-decoration: none;
-}
-
-/** =======================
- * Contenedor Principal
- ===========================*/
-
  .accordion {
  	width: 100%;
  	max-width: 360px;

@@ -1,5 +1,6 @@
 package wego;
 
+import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -19,6 +20,12 @@ public class VarifyUser extends HttpServlet {
 
 
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        ServletConfig config = getServletConfig();
+
+        // 获取初始化的参数
+        String username = config.getInitParameter("username");
+        String password = config.getInitParameter("password");
+
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
         request.setCharacterEncoding("UTF-8");
@@ -29,9 +36,8 @@ public class VarifyUser extends HttpServlet {
         HttpSession session=request.getSession(true);
 
         try{
-            if(inputname.equals("123") && inputpassword.equals("123")){
-                session.setAttribute("employee", inputname);
-                session.setAttribute("employee_id", "123");
+            if(inputname.equals(username) && inputpassword.equals(password)){
+                session.setAttribute("admin", inputname);
                 session.setAttribute("LocationManagement", "Open");
                 session.setAttribute("UserManagement", "Open");
                 msg ="ok";

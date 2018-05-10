@@ -16,7 +16,7 @@ public class AddLocationUI extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        String usercode = (String)request.getSession().getAttribute("employee");
+        String usercode = (String)request.getSession().getAttribute("admin");
         if(usercode!=null&&usercode!=""){
             request.getRequestDispatcher("/WEB-INF/AddLocation.jsp").forward(request, response);
         }

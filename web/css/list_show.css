@@ -1,0 +1,116 @@
+.whole_container {
+  width: 100%;
+  font-size: 14px; }
+  .whole_container .table_container {
+    width: 90%;
+    min-width: 600px;
+    margin: 30px auto 0;
+    padding: 30px 0;
+    border: 1px dashed #333333; }
+    .whole_container .table_container .table_title {
+      font-weight: 700;
+      text-align: center;
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #003366; }
+    .whole_container .table_container .table_link {
+      width: 90%;
+      margin: 0 auto; }
+      .whole_container .table_container .table_link .table_link_left {
+        float: left; }
+      .whole_container .table_container .table_link .table_link_right {
+        float: right; }
+      .whole_container .table_container .table_link .table_link_left .table_button, .whole_container .table_container .table_link .table_link_right .table_button {
+        text-decoration: none;
+        margin-right: 10px;
+        color: #FFFFFF;
+        background-color: #006699;
+        padding: 5px 10px;
+        font-size: 12px;
+        border: none;
+        outline: 0;
+        cursor: pointer; }
+      .whole_container .table_container .table_link .table_link_right .last_button {
+        margin-right: 0 !important; }
+    .whole_container .table_container .main_table {
+      margin: 60px auto 0;
+      width: 90%;
+      border-collapse: collapse; }
+      .whole_container .table_container .main_table .main_table_title {
+        background-color: #003366; }
+        .whole_container .table_container .main_table .main_table_title th {
+          padding: 8px 0;
+          color: #FFFFFF; }
+      .whole_container .table_container .main_table .main_table_content td {
+        text-align: center;
+        padding: 8px 0; }
+      .whole_container .table_container .main_table .main_table_content .large_td {
+        width: 50%; }
+      .whole_container .table_container .main_table .main_table_content_first {
+        background-color: #B7C2E1;
+        color: #333333; }
+        .whole_container .table_container .main_table .main_table_content_first .table_edit_button {
+          color: #333333; }
+      .whole_container .table_container .main_table .main_table_content_second {
+        background-color: #F2EFEF;
+        color: #333333; }
+        .whole_container .table_container .main_table .main_table_content_second .table_edit_button {
+          color: #333333; }
+      .whole_container .table_container .main_table .table_edit_button {
+        text-decoration: none; }
+    .whole_container .table_container .bottom_button_area {
+      width: 90%;
+      margin: 30px auto 0;
+      text-align: center; }
+      .whole_container .table_container .bottom_button_area .bottom_button {
+        text-decoration: none;
+        margin-right: 10px;
+        padding: 5px 10px;
+        background-color: #CCCCCC;
+        color: #333333;
+        cursor: default; }
+      .whole_container .table_container .bottom_button_area .bottom_button_active {
+        background-color: #006699;
+        color: #FFFFFF;
+        cursor: pointer; }
+      .whole_container .table_container .bottom_button_area .label_first {
+        margin-left: 10px; }
+      .whole_container .table_container .bottom_button_area .bottom_info_left {
+        margin-right: 20px; }
+      .whole_container .table_container .bottom_button_area .bottom_info_right {
+        margin-left: 20px; }
+        .whole_container .table_container .bottom_button_area .bottom_info_right .page_select {
+          padding: 5px 10px; }
+      .whole_container .table_container .bottom_button_area label {
+        color: #666666; }
+      .whole_container .table_container .bottom_button_area .num {
+        color: #333333;
+        font-weight: 700; }
+    .whole_container .table_container .b_form_container .b_form .b_form_table {
+      margin: 0 auto;
+      border-collapse: collapse; }
+      .whole_container .table_container .b_form_container .b_form .b_form_table .b_form_tr .label {
+        padding: 10px 20px;
+        color: #FFFFFF;
+        width: 15%;
+        background-color: #1d5995;
+        border: 1px solid #003366;
+        min-width: 84px; }
+      .whole_container .table_container .b_form_container .b_form .b_form_table .b_form_tr .info {
+        padding: 10px;
+        background-color: #B7C2E1;
+        border: 1px solid #003366; }
+      .whole_container .table_container .b_form_container .b_form .b_form_table .b_form_tr .submit_area {
+        text-align: center; }
+        .whole_container .table_container .b_form_container .b_form .b_form_table .b_form_tr .submit_area .submit_button {
+          padding: 6px 24px;
+          font-size: 14px;
+          margin: 30px 10px 10px;
+          cursor: pointer;
+          color: #FFFFFF;
+          background-color: #003366;
+          outline: 0;
+          border: none; }
+
+.clear {
+  clear: both; }

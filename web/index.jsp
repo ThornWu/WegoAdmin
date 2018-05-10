@@ -4,6 +4,7 @@
   	<head>
     	<title>WeGo Management System</title>
 		<link rel="stylesheet" type="text/css" href="css/index_manage.css">
+		<link rel="stylesheet" type="text/css" href="css/iconfont.css">
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<style>
 		body{
@@ -23,16 +24,16 @@
                             </div>
 
                             <div class="field">
-                            	<label>
-                                  	<i class="iconfont" title="username">&#xe601;</i>
-                                </label>
+				 				<span class="label">
+                                  	<i class="iconfont icon-yonghu"></i>
+                                </span>
                                	<input type="text" name="username" id="UserName" class="login-text" placeholder="Username">
                              </div>
 
                              <div class="field">
-                              	<label>
-                                  	<i class="iconfont" title="password">&#xe604;</i>
-                                </label>
+                              	<span class="label">
+                                  	<i class="iconfont icon-mima"></i>
+                                </span>
                                 <input type="password" name="password" id="Password" class="login-text" placeholder="Password">
                              </div>
                               

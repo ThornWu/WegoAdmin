@@ -1,7 +1,7 @@
 <%@ page pageEncoding="UTF-8"%>
 <%@page import="java.sql.*,wego.SqlCoon"%>
 <%
-    if(session.getAttribute("employee")==null){
+    if(session.getAttribute("admin")==null){
         response.sendRedirect("/index.jsp");
     }
 %>
@@ -57,29 +57,83 @@
     <head>
         <title>WeGo Management System</title>
         <script src="/js/jquery-3.2.1.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="/css/list_show.css" />
     </head>
 
     <body>
-        <form method="post" action="/servlet/AddLocation">
+        <div class="whole_container">
+            <div class="table_container" style="border:none;">
+                <div class="table_title">
+                    <span class="chi_title">Add Location Info</span>
+                </div>
+                <div class="b_form_container">
+                    <form class="b_form" method="post" action="/servlet/AddLocation">
+                        <table class="b_form_table">
+                            <tr class="b_form_tr">
+                                <td class="label">Venue Name:</td>
+                                <td class="info">
+                                    <input type="text" name="venuename" id="venuename" required="required" value="<%=this.venuename%>" size="80">
+                                </td>
+                            </tr>
 
-            <input type="hidden" name="venueid" id="venueid" value="<%=this.venueid%>"><br/>
-            Venue Name:<input type="text" name="venuename" id="venuename" required="required" value="<%=this.venuename%>"><br/>
-            Category:<input type="text" name="category" id="category" required="required" value="<%=this.category%>"><br/>
-            Latitude：<input type="text" name="latitude" id="latitude" required="required" value="<%=this.latitude%>"><br/>
-            Longitude：<input type="text" name="longitude" id="longitude" required="required" value="<%=this.longitude%>"><br/>
-            Address：<input type="text" name="address" id="address" required="required" value="<%=this.address%>"><br/>
-            LocalCity：<input type="text" name="localcity" id="localcity" required="required" value="<%=this.localcity%>"><br/>
-            City Label：
-            <%if(citylabel.equals("LA")){%>
-                <input type="radio" checked="checked" name="citylabel" value="LA"/>LA<input type="radio" name="citylabel" value="NY"/>NY<br/>
-            <%}else{%>
-                <input type="radio" name="citylabel" value="LA"/>LA<input type="radio" name="citylabel" value="NY" checked="checked" />NY<br/>
-            <%}%>
-            <input type="hidden" name="action" value="<%=action%>">
-            <input type="hidden" id="ok">
-            <input type="submit" id="submitbutton" value="Submit">
-        </form>
-        <a href="EmployeeInfo.jsp">返回</a>
+                            <tr class="b_form_tr">
+                                <td class="label">Category:</td>
+                                <td class="info">
+                                    <input type="text" name="category" id="category" required="required" value="<%=this.category%>" size="80">
+                                </td>
+                            </tr>
+
+                            <tr class="b_form_tr">
+                                <td class="label">Latitude：</td>
+                                <td class="info">
+                                    <input type="text" name="latitude" id="latitude" required="required" value="<%=this.latitude%>"><br/>
+                                </td>
+                            </tr>
+
+                            <tr class="b_form_tr">
+                                <td class="label">Longitude：</td>
+                                <td class="info">
+                                    <input type="text" name="longitude" id="longitude" required="required" value="<%=this.longitude%>"><br/>                                </td>
+                            </tr>
+
+                            <tr class="b_form_tr">
+                                <td class="label">Address：</td>
+                                <td class="info">
+                                    <input type="text" name="address" id="address" required="required" value="<%=this.address%>" size="80"><br/>
+                                </td>
+                            </tr>
+
+                            <tr class="b_form_tr">
+                                <td class="label">LocalCity：</td>
+                                <td class="info">
+                                    <input type="text" name="localcity" id="localcity" required="required" value="<%=this.localcity%>"><br/>
+                                </td>
+                            </tr>
+
+                            <tr class="b_form_tr">
+                                <td class="label">City Label：</td>
+                                <td class="info">
+                                    <%if(citylabel.equals("LA")){%>
+                                        <input type="radio" checked="checked" name="citylabel" value="LA"/>LA<input type="radio" name="citylabel" value="NY"/>NY<br/>
+                                    <%}else{%>
+                                        <input type="radio" name="citylabel" value="LA"/>LA<input type="radio" name="citylabel" value="NY" checked="checked" />NY<br/>
+                                    <%}%>
+                                </td>
+                            </tr>
+
+                            <tr class="b_form_tr">
+                                <td class="submit_area" colspan="2">
+                                    <input type="hidden" name="venueid" id="venueid" value="<%=this.venueid%>"><br/>
+                                    <input type="hidden" name="action" value="<%=action%>">
+                                    <input class="submit_button" type="submit" id="submitbutton" value="Submit">
+                                    <a href="/servlet/LocationInfoUI" class="submit_button" style="text-decoration:none;">返回</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
         <script>
             $("form").submit(function () {
                 $.ajax({

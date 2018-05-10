@@ -1,6 +1,6 @@
 <%@ page pageEncoding="UTF-8"%>
 <%
-if(session.getAttribute("employee")==null){
+if(session.getAttribute("admin")==null){
 	response.sendRedirect("/index.jsp");
 }
 %>
@@ -21,9 +21,8 @@ if(session.getAttribute("employee")==null){
                 <div class="logo">
                     <h1>WeGo Management System</h1>
                     <div id="UserInfo">
-                    	<label id="UserLabel"><%=session.getAttribute("employee")%></label>
-                    	<a href="javascript:" id="ChangePassword" target="IframeMain">账户管理</a>
-                    	<button id="UButton" onclick="LogOut()">LogOut</button>
+                    	<label id="UserLabel"><%=session.getAttribute("admin")%></label>
+						<a href="javascript:" class="top_button" onclick="LogOut()">LogOut</a>
                     </div>
                 </div>
             </div>

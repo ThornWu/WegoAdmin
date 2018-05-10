@@ -1,76 +1,69 @@
-@CHARSET "UTF-8";
-#cl-dashboard{
-	display:none;
-}
-.aside a {
-    color: white;
-}
-
-#header a{
-    color:white;
-}
-.aside a:hover {
-    font-weight: bold;
-}
-
 body {
     overflow-y: hidden;
     margin: 0;
 }
-
+* {
+	margin: 0;
+	padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    font-weight: bold;
+    color:#1bafa9;
+}
+ul {
+	list-style-type: none;
+}
+#header {
+    margin: 0 auto;
+    background-color: #0f1621;
+    color: white;
+}
 .container {
     width: 100%;
     height: 100%;
 }
-
-#header {
-    margin: 0 auto;
-    border-bottom: 2px solid #313131;
-    background-color: #3fa9bf;
-    color: white;
-}
-
-    #header .logo {
-        height: 66px;
-    }
-.logo h1{
-	margin:21.4px 0;
-}
-button{
-	padding:1px 6px;
+.top_button{
+    margin-left: 15px;
 }
 .aside {
     float: left;
     position: relative;
-    width: 280px;
+    width: 260px;
     height: 100%;
     overflow: auto;
-   	background-color: #313131;
+   	background-color: #383c45;
 }
 
-.aside h2 {
-        font-size: 22px;
-        font-weight: 400;
-        padding: 0 20px;
-        color: #171d25;
-        height: 62px;
-    }
+.accordion {
+    width: 100%;
+    max-width: 360px;
+}
 
-.menu-list {
-    font-size: 18px;
-    line-height: 35px;
-    margin: 0;
+.accordion .link {
+   cursor: pointer;
+   display: block;
+   padding: 8px 10px 8px 30px;
+   font-size: 16px;
+   position: relative;
+   border-bottom: 1px solid #4b4a5e;
+}
+
+#header .logo {
+    height: 75px;
+}
+.logo h1{
+	margin:21.4px 0;
 }
 
 #contentcontainer {
     position: absolute;
-    top: 66px;
+    top: 75px;
     right: 0;
     bottom: 0;
-}
-
-.hi {
-    visibility: hidden;
 }
 
 .content {
@@ -78,40 +71,34 @@ button{
     top: 0;
     right: 0;
     bottom: 0;
-    left: 280px;
+    left: 260px;
 }
 
 #frame {
-    padding: 20px;
-    width: 95%;
-    height: 85%;
+    padding:0 0 40px;
+    width: 100%;
+    height: 90%;
     overflow:auto;
     border: 0;
 }
 
 .logo {
-    padding-left: 15px;
+    padding-left: 30px;
 }
 
-    .logo h1 {
-        float: left;
-        *margin-top: 12px; /* IE7 */
-        line-height: 20px\9; /* IE8 */
-        *line-height: 40px; /* IE7 */
-    }
+.logo h1 {
+    float: left;
+    *margin-top: 12px; /* IE7 */
+    line-height: 20px\9; /* IE8 */
+    *line-height: 40px; /* IE7 */
+}
 
 :root .logo h1 {
-    line-height: 20px; /* IE8+ */
-}
-
-
-#Usertree {
-    margin-bottom: -20px; /* IE7+ */
-    *margin-bottom: 0; /* IE7 */
+    line-height: 30px; /* IE8+ */
 }
 
 #UserInfo {
-    padding: 20px;
+    padding: 25px;
     font-size: 20px;
     float: right;
 }
@@ -119,11 +106,4 @@ button{
 #UserLabel {
     color: #DCDCDC;
     font-weight: 700;
-    margin-right: 10px;
-}
-
-#ChangePassword {
-    text-decoration: none;
-    font-size: 16px;
-    margin-right: 10px;
 }

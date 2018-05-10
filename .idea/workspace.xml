@@ -7,19 +7,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98af9698-d7c5-42d8-881e-caa41d358662" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/wego/AddLocationUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/AddLocation.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/list_show.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WegoAdmin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WegoAdmin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wego/AddLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wego/AddLocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wego/AddUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wego/AddUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wego/AddLocationUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wego/AddLocationUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wego/DeletedLocationUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wego/DeletedLocationUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wego/DeletedUserUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wego/DeletedUserUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wego/LocationInfoUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wego/LocationInfoUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wego/ManageCenterUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wego/ManageCenterUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wego/UserInfoUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wego/UserInfoUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/wego/VarifyUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/wego/VarifyUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/AddLocation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/AddLocation.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/DeletedLocation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/DeletedLocation.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/DeletedUser.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/DeletedUser.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/LocationInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/LocationInfo.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/ManageCenter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/ManageCenter.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/UserInfo.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/UserInfo.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/frame.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/frame.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/index_manage.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/index_manage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/css/tablestyle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/iconfont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/web/fonts/iconfont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/iconfont.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/fonts/iconfont.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/web/fonts/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/iconfont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/web/fonts/iconfont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/fonts/iconfont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/web/fonts/iconfont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/images/background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/web/images/background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,76 +68,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ManageCenter.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ManageCenter.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/ManageCenter.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-540">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="221">
+              <caret line="24" column="96" lean-forward="true" selection-start-line="24" selection-end-line="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserInfo.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/UserInfo.jsp">
+      <file leaf-file-name="SqlCoon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wego/SqlCoon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2241">
-              <caret line="83" selection-start-line="83" selection-end-line="89" selection-end-column="21" />
+            <state relative-caret-position="261">
+              <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddLocation.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/AddLocation.jsp">
+      <file leaf-file-name="ManageCenterUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wego/ManageCenterUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+            <state relative-caret-position="240">
+              <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LocationInfo.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/LocationInfo.jsp">
+      <file leaf-file-name="LogOut.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wego/LogOut.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="96" column="14" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
+            <state relative-caret-position="108">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DeletedLocation.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/DeletedLocation.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DeletedUser.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/DeletedUser.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="83" selection-start-line="83" selection-end-line="89" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddLocation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/wego/AddLocation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddUser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddUser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wego/AddUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
+            <state relative-caret-position="1296">
               <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -126,11 +116,53 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="AddLocation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wego/AddLocation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="553">
+              <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LocationInfoUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wego/LocationInfoUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AddLocationUI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/wego/AddLocationUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-23">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="194">
+              <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeletedUserUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wego/DeletedUserUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DeletedLocationUI.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/wego/DeletedLocationUI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="402">
+              <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,17 +185,32 @@
       <find>page</find>
       <find>username</find>
       <find>del</find>
-      <find>UserInfoUI</find>
       <find>userid</find>
       <find>isused</find>
       <find>recover</find>
       <find>LocationInfoUI</find>
-      <find>True</find>
       <find>user</find>
       <find>mode</find>
       <find>dept</find>
       <find>conn</find>
       <find>edit</find>
+      <find>jump_url</find>
+      <find>200</find>
+      <find>jump_url(</find>
+      <find>venue</find>
+      <find>delete</find>
+      <find>UserInfoUI</find>
+      <find>True</find>
+      <find>Del</find>
+      <find>bottom_info_r</find>
+      <find>bottom_info</find>
+      <find>bottom</find>
+      <find>sear</find>
+      <find>sea</find>
+      <find>bottom_info_right</find>
+      <find>ManageCenter</find>
+      <find>em</find>
+      <find>employee</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -178,29 +225,30 @@
         <option value="$PROJECT_DIR$/src/hotel/VarifyUser.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/main.jsp" />
         <option value="$PROJECT_DIR$/src/hotel/UserCenterUI.java" />
-        <option value="$PROJECT_DIR$/src/wego/ManageCenterUI.java" />
         <option value="$PROJECT_DIR$/src/wego/LogOut.java" />
-        <option value="$PROJECT_DIR$/src/wego/VarifyUser.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/css/frame.css" />
-        <option value="$PROJECT_DIR$/web/css/main.css" />
         <option value="$PROJECT_DIR$/web/WEB-INF/RoomInfo.jsp" />
-        <option value="$PROJECT_DIR$/src/wego/UserInfoUI.java" />
-        <option value="$PROJECT_DIR$/src/wego/LocationInfoUI.java" />
-        <option value="$PROJECT_DIR$/src/wego/DeletedUserUI.java" />
         <option value="$PROJECT_DIR$/src/wego/SqlCoon.java" />
-        <option value="$PROJECT_DIR$/src/wego/DeletedLocationUI.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/ManageCenter.jsp" />
-        <option value="$PROJECT_DIR$/src/wego/AddLocationUI.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/AddLocation.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/DeletedLocation.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/DeletedUser.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/LocationInfo.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/UserInfo.jsp" />
         <option value="$PROJECT_DIR$/src/wego/AddLocation.java" />
         <option value="$PROJECT_DIR$/src/wego/AddUser.java" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/css/list_show.css" />
+        <option value="$PROJECT_DIR$/web/css/main.css" />
+        <option value="$PROJECT_DIR$/web/css/frame.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/UserInfo.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/LocationInfo.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/DeletedUser.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/DeletedLocation.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/AddLocation.jsp" />
+        <option value="$PROJECT_DIR$/src/wego/VarifyUser.java" />
+        <option value="$PROJECT_DIR$/src/wego/UserInfoUI.java" />
+        <option value="$PROJECT_DIR$/src/wego/ManageCenterUI.java" />
+        <option value="$PROJECT_DIR$/src/wego/LocationInfoUI.java" />
+        <option value="$PROJECT_DIR$/src/wego/DeletedUserUI.java" />
+        <option value="$PROJECT_DIR$/src/wego/DeletedLocationUI.java" />
+        <option value="$PROJECT_DIR$/src/wego/AddLocationUI.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/ManageCenter.jsp" />
       </list>
     </option>
   </component>
@@ -221,9 +269,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="530" />
+    <option name="x" value="992" />
     <option name="y" value="-4" />
-    <option name="width" value="1390" />
+    <option name="width" value="928" />
     <option name="height" value="1084" />
   </component>
   <component name="ProjectView">
@@ -231,7 +279,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,6 +290,12 @@
               <item name="WegoAdmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="WegoAdmin" type="462c0819:PsiDirectoryNode" />
               <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WegoAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WegoAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WegoAdmin" type="b2602c69:ProjectViewProjectNode" />
@@ -264,19 +317,25 @@
               <item name="WegoAdmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="WegoAdmin" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WegoAdmin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WegoAdmin" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WegoAdmin" type="b2602c69:ProjectViewProjectNode" />
               <item name="WegoAdmin" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -303,13 +362,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/WEB-INF" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/css" />
+      <recent name="$PROJECT_DIR$/web/fonts" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/classes" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/web/WEB-INF/lib" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/web/WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -451,12 +512,13 @@
       <workItem from="1525882080255" duration="1607000" />
       <workItem from="1525924062316" duration="8356000" />
       <workItem from="1525933176654" duration="8279000" />
-      <workItem from="1525950582315" duration="5868000" />
+      <workItem from="1525950582315" duration="6064000" />
+      <workItem from="1525957628896" duration="9449000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24110000" />
+    <option name="totallyTimeSpent" value="33755000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -481,17 +543,17 @@
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="12" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31967214" />
-      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32991913" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32991803" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2592992" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31967214" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32924336" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2592992" />
       <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32991803" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32991803" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32991913" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
@@ -516,9 +578,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/Register.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/hotel/SqlCoon.java" />
-    <entry file="file://$PROJECT_DIR$/web/manage/OrderInfo/OrderList.jsp" />
     <entry file="file://$PROJECT_DIR$/src/hotel/SqlCoon.java" />
     <entry file="file://$PROJECT_DIR$/src/hotel/AddDept.java" />
     <entry file="file://$PROJECT_DIR$/src/hotel/AddOrderInfo.java" />
@@ -549,75 +608,7 @@
     <entry file="file://$PROJECT_DIR$/src/hotel/RoomTypeList.java" />
     <entry file="file://$PROJECT_DIR$/src/hotel/RoomType.java" />
     <entry file="file://$PROJECT_DIR$/src/hotel/RegisterGuest.java" />
-    <entry file="file://$PROJECT_DIR$/src/wego/LogOut.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="36" column="5" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/index_manage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3384" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/css/index_style.css" />
-    <entry file="file://$PROJECT_DIR$/web/css/frame.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2160">
-          <caret line="80" column="12" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2484">
-          <caret line="92" column="20" selection-start-line="92" selection-start-column="20" selection-end-line="92" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wego/ManageCenterUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="20" column="63" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wego/UserInfoUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wego/VarifyUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="35" column="52" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wego/SqlCoon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wego/DeletedUserUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="9" selection-start-line="9" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/wego/LocationInfoUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/css/front_style.css" />
     <entry file="file://$PROJECT_DIR$/web/css/tablestyle.css">
       <provider selected="true" editor-type-id="text-editor" />
@@ -629,86 +620,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="21" column="54" selection-start-line="21" selection-start-column="54" selection-end-line="21" selection-end-column="54" />
+        <state relative-caret-position="189">
+          <caret line="3" column="380" selection-start-line="3" selection-start-column="380" selection-end-line="3" selection-end-column="380" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/index_manage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2520" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/iconfont.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/list_show.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="71" column="81" selection-start-line="71" selection-start-column="61" selection-end-line="71" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1575">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/frame.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="39" column="43" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="43" />
+        <state relative-caret-position="351">
+          <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wego/DeletedLocationUI.java">
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/DeletedLocation.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="84" column="17" selection-start-line="84" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/DeletedUser.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="83" selection-start-line="83" selection-end-line="89" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/LocationInfo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="96" column="14" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/ManageCenter.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="194">
+          <caret line="40" column="80" selection-start-line="40" selection-start-column="72" selection-end-line="40" selection-end-column="80" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/UserInfo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2241">
-          <caret line="83" selection-start-line="83" selection-end-line="89" selection-end-column="21" />
+        <state relative-caret-position="81">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/LocationInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/DeletedUser.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/DeletedLocation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/AddLocation.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+        <state relative-caret-position="81">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wego/AddLocation.java">
+    <entry file="file://$PROJECT_DIR$/src/wego/VarifyUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="432">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/wego/AddLocationUI.java">
+    <entry file="file://$PROJECT_DIR$/src/wego/UserInfoUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-23">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="324">
+          <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wego/SqlCoon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="19" column="57" selection-start-line="19" selection-start-column="57" selection-end-line="19" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wego/ManageCenterUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wego/LogOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wego/LocationInfoUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wego/DeletedUserUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wego/DeletedLocationUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -717,11 +766,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/wego/AddUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
+        <state relative-caret-position="1296">
           <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wego/AddLocationUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/wego/AddLocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/ManageCenter.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="24" column="96" lean-forward="true" selection-start-line="24" selection-end-line="25" />
         </state>
       </provider>
     </entry>

@@ -1,35 +1,9 @@
-@CHARSET "UTF-8";
-@font-face {
-    font-family: "iconfont";
-    src: url('../fonts/iconfont.eot?t=1495115466400'); /* IE9*/
-    src: url('../fonts/foiconfont.eot?t=1495115466400#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/iconfont.woff?t=1495115466400') format('woff'), /* chrome, firefox */
-    url('../fonts/iconfont.ttf?t=1495115466400') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-    url('../fonts/iconfont.svg?t=1495115466400#iconfont') format('svg'); /* iOS 4.1- */
-}
 body{
 	background-repeat:no-repeat;
 	background-size:cover;
 	min-width:1000px;
 }
-.iconfont {
-    font-family: "iconfont" !important;
-    font-size: 16px;
-    font-style: normal;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
 
-.icon-Password:before {
-    content: "\e604";
-}
-
-.icon-account:before {
-    content: "\e601";
-}
-#cl-dashboard{
-	display:none;
-}
 #content {
     width: 100%;
     position: relative;
@@ -38,23 +12,18 @@ body{
 #content .content-layout {
     width: 1200px;
     margin: 0 auto;
-    overflow: hidden;
     position: relative;
     height: 500px;
 	z-index: 999;
 }
-
-
 .login-box-wrap {
-    position: absolute;
-    top: 105px;
-    right: 50px;
+    margin: 15% auto 0;
     width: 350px;
 }
 
 .login-box {
     width: 300px;
-    padding: 25px 25px 23px;
+    padding: 50px;
     color: #6c6c6c;
     background: rgba(224,224,224,0.5);
     position: relative;
@@ -66,7 +35,6 @@ body{
     line-height: 18px;
     font-size: 24px;
     color: #333333;
-    margin-top: 9px;
     padding-bottom: 8px;
     font-weight: 700;
     margin: 0;
@@ -77,13 +45,13 @@ body{
     position: relative;
 }
 
-    .field label {
+    .field .label {
         display: block;
         width: 40px;
         height: 40px;
         line-height: 40px;
         color: #fff;
-        background: #ddd;
+        background: #ccc;
         text-align: center;
         position: absolute;
         top: 1px;
@@ -91,7 +59,7 @@ body{
     }
 
 .iconfont {
-    font-size: 22px;
+    font-size: 22px!important;
     font-family: iconfont !important;
 }
 
@@ -107,7 +75,7 @@ body{
 }
 
 .login-text {
-    width: 300px;
+    width: 240px;
     font-size: 14px;
     line-height: 18px;
     padding: 11px 8px 11px 50px;
@@ -115,7 +83,7 @@ body{
 }
 
 .submit {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #submitbutton {
@@ -129,7 +97,7 @@ body{
     font-size: 16px;
     font-weight: 700;
     color: #fff;
-    background: #F26901;
+    background: #332C99;
     cursor: pointer;
     zoom: 1;
     margin: 0 auto;
