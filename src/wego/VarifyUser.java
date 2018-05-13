@@ -8,6 +8,9 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
 
 public class VarifyUser extends HttpServlet {
     public void init() throws ServletException {
@@ -20,11 +23,9 @@ public class VarifyUser extends HttpServlet {
 
 
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        ServletConfig config = getServletConfig();
+        SqlCoon sqlcoon = new SqlCoon();
+        Connection conn = sqlcoon.GetCoon();
 
-        // 获取初始化的参数
-        String username = config.getInitParameter("username");
-        String password = config.getInitParameter("password");
 
         response.setContentType("text/html;charset=UTF-8");
         PrintWriter out = response.getWriter();
@@ -34,9 +35,12 @@ public class VarifyUser extends HttpServlet {
         String inputname=request.getParameter("username");
         String inputpassword=request.getParameter("password");
         HttpSession session=request.getSession(true);
+        Statement stmt=null;
 
         try{
-            if(inputname.equals(username) && inputpassword.equals(password)){
+            stmt = conn.createStatement();
+            ResultSet rs = stmt.executeQuery( "select * from admin where username='" + inputname + "' and password='" + inputpassword+ "'");
+            if(rs.next()){
                 session.setAttribute("admin", inputname);
                 session.setAttribute("LocationManagement", "Open");
                 session.setAttribute("UserManagement", "Open");
