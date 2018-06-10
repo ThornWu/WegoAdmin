@@ -51,5 +51,10 @@ public class AddUser extends HttpServlet {
         }
         out.flush();
         out.close();
+        try{
+            conn.close();
+        }catch (Exception e){
+
+        }
     }
 }

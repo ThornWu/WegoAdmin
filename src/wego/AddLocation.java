@@ -75,5 +75,10 @@ public class AddLocation extends HttpServlet {
         }
         out.flush();
         out.close();
+        try{
+            conn.close();
+        }catch (Exception e){
+
+        }
     }
 }
