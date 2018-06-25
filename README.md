@@ -1,0 +1,1 @@
+项目为位置推荐系统信息管理后台，使用 Java Servelet 开发，可直接使用 Intellij Idea 打开工程。
